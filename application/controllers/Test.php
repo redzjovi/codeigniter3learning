@@ -5,5 +5,9 @@ class Test extends CI_Controller {
         echo "Hello World!";
     }
 
+    public function hello() {
+        echo "This is hello function.";
+    }
+
 }
 ?>
