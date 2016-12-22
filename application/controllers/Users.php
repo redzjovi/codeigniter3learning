@@ -6,6 +6,7 @@ class Users extends CI_Controller
     {
         parent::__construct();
         $this->load->model('Users_Model');
+        $this->output->enable_profiler(ENVIRONMENT == 'development');
     }
 
     public function index()
